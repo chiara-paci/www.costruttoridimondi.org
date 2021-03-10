@@ -1,0 +1,101 @@
+/**
+EBGaramond-Regular-webfont.ttf
+EBGaramond-Medium-webfont.ttf           
+EBGaramond-SemiBold-webfont.ttf
+EBGaramond-Bold-webfont.ttf             
+EBGaramond-ExtraBold-webfont.ttf    
+
+-rw-r--r-- 1 chiara chiara 567300 Mar 23  2011 EBGaramond-BoldItalic.ttf
+-rw-r--r-- 1 chiara chiara 601316 Mar 23  2011 EBGaramond-Bold.ttf 700
+
+-rw-r--r-- 1 chiara chiara 566936 Mar 23  2011 EBGaramond-ExtraBoldItalic.ttf
+-rw-r--r-- 1 chiara chiara 600940 Mar 23  2011 EBGaramond-ExtraBold.ttf 800
+
+-rw-r--r-- 1 chiara chiara 566872 Mar 23  2011 EBGaramond-MediumItalic.ttf
+-rw-r--r-- 1 chiara chiara 601412 Mar 23  2011 EBGaramond-Medium.ttf 500
+
+-rw-r--r-- 1 chiara chiara 564280 Mar 23  2011 EBGaramond-Italic.ttf
+-rw-r--r-- 1 chiara chiara 599076 Mar 23  2011 EBGaramond-Regular.ttf 400
+
+-rw-r--r-- 1 chiara chiara 567528 Mar 23  2011 EBGaramond-SemiBoldItalic.ttf
+-rw-r--r-- 1 chiara chiara 601652 Mar 23  2011 EBGaramond-SemiBold.ttf 600
+
+**/
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/**
+EBGaramond-MediumItalic.ttf  
+EBGaramond-Italic.ttf       
+EBGaramond-SemiBoldItalic.ttf
+EBGaramond-BoldItalic.ttf       
+EBGaramond-ExtraBoldItalic.ttf  
+**/
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'EBGaramond';
+  src: url("../fonts/EBGaramond-ExtraBoldItalic.ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+

@@ -1,0 +1,39 @@
+@import url("/static/css/fonts.css");
+
+html {
+    min-height: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 2px black inset;
+    border: none;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    box-shadow: 0 0 3px 1px #f0f0f0 inset !important;
+    user-select: text;
+    -webkit-user-select: text;
+    cursor: text;
+}
+
+html:focus-within,
+html:active,
+html:focus {
+    border-color: #802415 !important;
+
+}
+
+body {
+
+    font-family: "Open Sans","Segoe UI",Tahoma,sans-serif;
+    font-size: calc(14px + 0.2vmin);
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+    box-sizing: border-box;
+    user-select: text;
+    -webkit-user-select: text;
+    cursor: text;
+    margin: 0;
+    padding: 8px;
+
+    @import "text_style.less";
+}
+

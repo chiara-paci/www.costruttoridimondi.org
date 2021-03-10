@@ -1,0 +1,51 @@
+@import url("font-opensans.css");
+@import url("font-roboto.css");
+@import url("font-texgyrecursor.css");
+@import url("font-cc.css");
+@import url("font-rammetto.css");
+@import url("font-pinyon.css");
+@import url("font-oswald.css");
+@import url("font-garamond.css");
+
+
+/***/
+
+.cc {
+    font-family: CC;
+}
+
+.mono {
+  font-family: 'TeX Gyre Cursor','Bitstream Vera Sans Mono', monospace;
+  font-size: 0.95em;
+  letter-spacing: 0.01em;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.extrabold {
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+

@@ -1,0 +1,108 @@
+.post-content {
+  background-color: white;
+  color: black;
+}
+.post-content .codebox,
+.post-content details,
+.post-content blockquote {
+  border-width: 1px;
+  padding: .3em;
+  border-style: solid;
+  width: 90%;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.post-content blockquote > i {
+  font-size: 95% !important;
+}
+.post-content .codebox p,
+.post-content details > summary,
+.post-content blockquote cite {
+  font-size: 95% !important;
+  font-weight: bold;
+  padding: .2em;
+}
+.post-content details > summary::before {
+  content: "Spoiler: ";
+}
+.post-content details > div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.post-content .codebox,
+.post-content blockquote,
+.post-content details {
+  background-color: #f8f8f8;
+  border-color: #ccc;
+}
+.post-content code {
+  font-family: 'TeX Gyre Cursor', monospace;
+  padding: .3em;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #f8f8f8;
+  border-color: #ccc;
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 95% !important;
+}
+.post-content blockquote > i {
+  color: #aeaeae;
+}
+.post-content .codebox p,
+.post-content blockquote cite,
+.post-content details > summary {
+  border-color: #e6e6e6;
+  background-color: #eee;
+  color: #505050;
+}
+.post-content .smention,
+.post-content .mention {
+  color: #aa4839;
+}
+.post-content a.smention:hover,
+.post-content a.smention:active,
+.post-content a.mention:hover,
+.post-content a.mention:active {
+  color: white;
+  background-color: #aa4839;
+}
+.post-content hr {
+  height: 1px;
+  background-color: #d0d0d0;
+}
+.post-content table {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+  border-collapse: collapse;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.post-content table th {
+  background-color: #455a64;
+  color: #ffffff;
+}
+.post-content table th a {
+  color: #ffffff;
+}
+.post-content table th a:hover {
+  color: #aeaeae;
+}
+.post-content table th a:active {
+  color: #1c053a;
+}
+.post-content table tr {
+  background-color: #ffffff;
+}
+.post-content table tr:nth-of-type(2n+1) {
+  background-color: #f0f0f0;
+}
+.post-content table td {
+  border: 1px solid #e6e6e6;
+}

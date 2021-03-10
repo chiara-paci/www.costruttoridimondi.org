@@ -1,0 +1,139 @@
+.codebox,
+details,
+blockquote {
+    border-width: 1px;
+    padding: .3em;
+    border-style: solid;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+blockquote > i {
+    font-size: 95% !important;
+}
+
+.codebox p,
+details > summary,
+blockquote cite {
+    font-size: 95% !important;
+    font-weight: bold;
+    padding: .2em;
+    font-style: normal;
+}
+
+.codebox p,
+blockquote cite {
+    display: block;
+}
+
+details > summary::before {
+    content: "Spoiler: ";
+}
+
+details > summary {
+    cursor: pointer;
+}
+
+details > div {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.codebox,
+blockquote, 
+details {
+    background-color: #f8f8f8;
+    border-color: #ccc;
+
+}
+
+code {
+    font-family: 'TeX Gyre Cursor', monospace;
+    padding: .3em;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #f8f8f8;
+    border-color: #ccc;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 95% !important;
+
+}
+
+blockquote > i {
+    color: #aeaeae;
+}
+
+.codebox p,
+blockquote cite,
+details > summary {
+    border-color: #e6e6e6;
+    background-color: #eee;
+    color: #505050;
+}
+
+.smention,
+.mention {
+    color: #aa4839;
+    font-weight: bold;
+} 
+
+a.smention:hover, a.smention:active,
+a.mention:hover, a.mention:active {
+    color: white;
+    background-color: #aa4839;
+}
+
+hr {
+    height: 1px;
+    background-color: #d0d0d0;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.03);
+    border-collapse: collapse;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    
+    
+    th {
+	background-color: #455a64;
+	color: #ffffff;
+	a {
+	    color: #ffffff;
+	}
+	a:hover {
+	    color: #aeaeae;
+	}
+	a:active {
+	    color: #1c053a;
+	}
+    }
+    
+    tr {
+	background-color: #ffffff;
+    }
+    
+    tr:nth-of-type(2n+1) {
+	background-color: #f0f0f0;
+    }
+    
+    td {
+	border: 1px solid #e6e6e6;
+    }
+    
+}
